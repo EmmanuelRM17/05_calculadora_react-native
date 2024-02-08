@@ -18,26 +18,26 @@ export default function App() {
               <TouchableOpacity style={styles.button}><Text style={styles.texto}>←</Text></TouchableOpacity>
             </View>
             <View style={styles.filabotones}>
-              <TouchableOpacity style={styles.button}><Text style={styles.texto}>7</Text></TouchableOpacity>
-              <TouchableOpacity style={styles.button}><Text style={styles.texto}>8</Text></TouchableOpacity>
-              <TouchableOpacity style={styles.button}><Text style={styles.texto}>9</Text></TouchableOpacity>
+              <TouchableOpacity style={styles.button1}><Text style={styles.texto}>7</Text></TouchableOpacity>
+              <TouchableOpacity style={styles.button1}><Text style={styles.texto}>8</Text></TouchableOpacity>
+              <TouchableOpacity style={styles.button1}><Text style={styles.texto}>9</Text></TouchableOpacity>
               <TouchableOpacity style={styles.button}><Text style={styles.texto}>*</Text></TouchableOpacity>
             </View>
             <View style={styles.filabotones}>
-              <TouchableOpacity style={styles.button}><Text style={styles.texto}>4</Text></TouchableOpacity>
-              <TouchableOpacity style={styles.button}><Text style={styles.texto}>5</Text></TouchableOpacity>
-              <TouchableOpacity style={styles.button}><Text style={styles.texto}>6</Text></TouchableOpacity>
+              <TouchableOpacity style={styles.button1}><Text style={styles.texto}>4</Text></TouchableOpacity>
+              <TouchableOpacity style={styles.button1}><Text style={styles.texto}>5</Text></TouchableOpacity>
+              <TouchableOpacity style={styles.button1}><Text style={styles.texto}>6</Text></TouchableOpacity>
               <TouchableOpacity style={styles.button}><Text style={styles.texto}>-</Text></TouchableOpacity>
             </View>
             <View style={styles.filabotones}>
-              <TouchableOpacity style={styles.button}><Text style={styles.texto}>1</Text></TouchableOpacity>
-              <TouchableOpacity style={styles.button}><Text style={styles.texto}>2</Text></TouchableOpacity>
-              <TouchableOpacity style={styles.button}><Text style={styles.texto}>3</Text></TouchableOpacity>
+              <TouchableOpacity style={styles.button1}><Text style={styles.texto}>1</Text></TouchableOpacity>
+              <TouchableOpacity style={styles.button1}><Text style={styles.texto}>2</Text></TouchableOpacity>
+              <TouchableOpacity style={styles.button1}><Text style={styles.texto}>3</Text></TouchableOpacity>
               <TouchableOpacity style={styles.button}><Text style={styles.texto}>+</Text></TouchableOpacity>
             </View>
             <View style={styles.filabotones}>
               <TouchableOpacity style={styles.button}><Text style={styles.texto}>±</Text></TouchableOpacity>
-              <TouchableOpacity style={styles.button}><Text style={styles.texto}>0</Text></TouchableOpacity>
+              <TouchableOpacity style={styles.button1}><Text style={styles.texto}>0</Text></TouchableOpacity>
               <TouchableOpacity style={styles.button}><Text style={styles.texto}>.</Text></TouchableOpacity>
               <TouchableOpacity style={styles.button}><Text style={styles.texto}>=</Text></TouchableOpacity>
             </View>
@@ -106,6 +106,17 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#f0be95',
+    borderRadius: 20, 
+    margin: 10,
+    borderColor: '#000000',
+    borderWidth: 1,
+  },
+  button1: {
+    width: 80,
+    height: 90, 
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#f3d0b3',
     borderRadius: 20, 
     margin: 10,
     borderColor: '#000000',

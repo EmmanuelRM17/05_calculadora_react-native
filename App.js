@@ -57,13 +57,13 @@ const styles = StyleSheet.create({
   },
   calculadora: {
     width: '100%',
-    height: '95%',
+    height: '90%',
     backgroundColor: '#000000',
     borderRadius: 10,
     overflow: 'hidden',
     shadowColor: '#363636',
     shadowOffset: { width: 0, height: 0 },
-    shadowOpacity: 0.932,
+    shadowOpacity: 0.9,
     shadowRadius: 25,
   },
   borde: {
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
   tituloCalculadora: {
     fontSize: 30,
     fontWeight: 'bold',
-    marginTop: 30
+    marginTop: 20
   },
   resultado: {
     backgroundColor: '#fae5c9',
@@ -92,25 +92,27 @@ const styles = StyleSheet.create({
     fontSize: 30, 
   },
   botones: {
-    width: '100%',
+    width: '90%',
     padding: 10, 
   },
   filabotones: {
     flexDirection: 'row',
     justifyContent: 'space-evenly', 
-    marginBottom: 20, 
+    marginBottom: 5, 
   },
   button: {
-    width: 100,
-    height: 95, 
+    width: 80,
+    height: 90, 
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#f0be95',
-    borderRadius: 30, 
-    margin: 5, 
+    borderRadius: 20, 
+    margin: 10,
+    borderColor: '#000000',
+    borderWidth: 1,
   },
   texto: {
-    fontSize: 27, 
+    fontSize: 30, 
     color: '#000000',
   },
 });
